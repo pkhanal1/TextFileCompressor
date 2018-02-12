@@ -1054,4 +1054,5 @@ nonsensically.
     Up 93 62 162 parted 62 16 778 2186 362 8 506
 669 15 4 Barrow-711.  Golden 820 spilled 238 364 8
 threshold 17 67 1927 534.
-0 
+
+0 Uncompressed: 59158 bytes;  Compressed: 49369 bytes

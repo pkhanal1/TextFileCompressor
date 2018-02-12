@@ -298,16 +298,21 @@ public class FileCompressorManager {
 	}
 	
 
-//	
-//	public static void main(String[] args){
-//		FileCompressorManager f = new FileCompressorManager();
-//		try {
-//			System.out.println(f.processFile("test-files/input10.txt"));
-//		} catch (FileNotFoundException | InvalidInputFileTypeException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//	}
+	
+	public static void main(String[] args){
+		System.out.println("Please Enter a File Name.");
+		Scanner fileNameScan = new Scanner(System.in);
+		String fileName = fileNameScan.next();
+		try {
+			System.out.println(new FileCompressorManager().processFile(fileName));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InvalidInputFileTypeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 	
 	
 	
